@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Ceel : Quickly set up a Nodejs server for your webpage">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Ceel</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/Pixeladed/ceel">View on GitHub</a>
+
+          <h1 id="project_title">Ceel</h1>
+          <h2 id="project_tagline">Quickly set up a Nodejs server for your webpage</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/Pixeladed/ceel/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/Pixeladed/ceel/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a name="ceel" class="anchor" href="#ceel"><span class="octicon octicon-link"></span></a>Ceel</h2>
+
+<blockquote>
+<p>Command-line tool to quickly turn web project into web app</p>
+</blockquote>
+
+<h3>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h3>
+
+<pre><code>$ npm install ceel
+</code></pre>
+
+<h3>
+<a name="purpose" class="anchor" href="#purpose"><span class="octicon octicon-link"></span></a>Purpose</h3>
+
+<p>This command-line tools will create a nodejs server that return your html files.</p>
+
+<p><strong>Example usage</strong></p>
+
+<ul>
+<li>Quickly test Ajax calls</li>
+<li>Develop with libraries that require a server eg: Less.js</li>
+</ul><h3>
+<a name="usage" class="anchor" href="#usage"><span class="octicon octicon-link"></span></a>Usage</h3>
+
+<pre><code>$ ceel options
+</code></pre>
+
+<p>After running ceel, open your browser and go to <code>0.0.0.0:8000</code></p>
+
+<h3>
+<a name="options" class="anchor" href="#options"><span class="octicon octicon-link"></span></a>Options</h3>
+
+<p>You can only use 1 of the 2 avalaible options</p>
+
+<p><strong>1. <code>path/to/project/folder</code></strong></p>
+
+<p>This option can be use for ceel to run on the provided folder. If leave blank or use custom html file option instead, it will run on the folder that you are on at the terminal.</p>
+
+<pre><code>$ ceel path/to/project/folder
+</code></pre>
+
+<p><strong>2. <code>custom.html</code></strong></p>
+
+<p>The default value of the html file to host is <code>index.html</code> and <code>index.htm</code>. You can use this function to tell Ceel what html file to host</p>
+
+<pre><code>$ ceel main.html
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Ceel maintained by <a href="https://github.com/Pixeladed">Pixeladed</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
