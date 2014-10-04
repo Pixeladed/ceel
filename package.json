@@ -1,0 +1,13 @@
+{
+  "name": "ceel",
+  "version": "0.0.1",
+  "description": "Quickly convert web page into nodejs app",
+  "author": "Minh Le",
+  "bin": {
+    "ceel": "ceel.js"
+  },
+  "dependencies": {
+    "finalhandler": "^0.3.0",
+    "serve-static": "^1.6.3"
+  }
+}
